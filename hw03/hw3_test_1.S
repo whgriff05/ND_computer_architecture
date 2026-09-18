@@ -53,7 +53,6 @@ insertLoop:
     # If counter is not the number of array elements, keep looping
     bne x15, x10, insertLoop
 
-
 testCase1:
     # Set x10 (input) to address of 0x7520
     add x10, x0, x11
@@ -95,6 +94,7 @@ testCase1:
 
     # Delete function
     jal x1, delete
+
 
 exit:
     # Stop

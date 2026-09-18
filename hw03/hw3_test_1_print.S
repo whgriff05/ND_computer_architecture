@@ -85,9 +85,9 @@ testCase1:
     # Swap function
     jal x1, swap
 
-    # Set x10 (input) to address of 0x626f
+    # Set x10 (input) to address of 0x6c64
     add x10, x0, x11
-    addi x10, x10, 0x140
+    addi x10, x10, 0x180
 
     # Delete function
     jal x1, delete
